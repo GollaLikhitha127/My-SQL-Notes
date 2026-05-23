@@ -1,1 +1,44 @@
+DDL:- Data Definition Language 
+=>It used for define database structure.
+=>It is used to crete structure of table.
+COMMANDS:- CREATE,ALTER,DROP,TRUNCATE,RENAME 
 
+
+
+CREATE:- It is used for create a table.
+SYNTAX:- CREATE TABLE table_name(
+col1 DATATYPE CONSTRAINT,
+col2 DATATYPE CONSTRAINT,
+col3 DATATYPE CONSTRAINT,
+col4 DATATYPE CONSTRAINT
+);
+
+
+
+ALTER :- ITS used for modify the existing tables 
+4 methods in ALTER 
+i)ADD:-It is used adding new column in a table.
+SYNTAX:- ALTER TABLE table_name ADD new_column;
+ii)DROP:-IT is used for REMOVE a colum 
+SYNTAX:-ALTER TABLE table_name DROP COLUMN column_name;
+iii)MODIFY:-It is used foe changes datatype & size of cloumn.
+SYNTAX:-ALTER TABLE table_name ALTER COLUMN column_name TYPE(SIZE);
+iv):-RENAME:- IT IS used for change column name.
+SYNTAX:-RENAME TABLE old_colum_namr TO new_column_name;
+
+
+
+
+
+
+
+DROP:- It can delete total table and data permantly with table .
+SYNTAX:-DROP TABLE table_name;
+
+
+
+
+
+
+TURNCATE:- it can delete only data in the table.
+SYNTAX:-TURNCATE TABLE table_name
