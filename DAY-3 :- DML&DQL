@@ -1,0 +1,37 @@
+DML ( Data Manipulation Language ):-
+=> It is used to modify data inside a table.
+COMMANDS ARE USED:-
+1.INSERT 
+2.UPDATE
+3.DELETE 
+
+
+
+
+1.INSERT:-It is used to insert the values in the table.
+SYNTAX:-INSERT INTO table_name (attributes/coulmn names) VALUES (     );
+
+
+2.UPDATE:-It is used to modify the table.
+SYNTAX:- UPDATE table_name SET column_name = new_value WHERE condition;
+
+
+3.DELETE:- It is used to delete only one record which record we want. 
+SYNTAX:-DELETE FROM table_name WHERE condition;
+
+
+
+
+
+
+
+DQL(DATA QUERY LANGUAGE):-
+=>It is used to retrieve/fetch data from a table.
+COMANDS ARE USED:-
+1.SELECT 
+
+SELECT:-It is used to display data from a table.
+SYNTAX:-SELECT * FROM table_nam;
+
+WITH CONDITION
+SYNTAX:-SELECT * FROM table_name WHERE condition;
