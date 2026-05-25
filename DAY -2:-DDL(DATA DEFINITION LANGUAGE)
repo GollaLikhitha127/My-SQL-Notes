@@ -12,6 +12,11 @@ col2 DATATYPE CONSTRAINT,
 col3 DATATYPE CONSTRAINT,
 col4 DATATYPE CONSTRAINT
 );
+EX:- CREATE TABLE students(
+Id INT AUTO- INCREMENT PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+age INT 
+);
 
 
 
@@ -19,12 +24,23 @@ ALTER :- ITS used for modify the existing tables
 4 methods in ALTER 
 i)ADD:-It is used adding new column in a table.
 SYNTAX:- ALTER TABLE table_name ADD new_column;
+Ex:- ALTER TABLE student ADD results;
+
+
 ii)DROP:-IT is used for REMOVE a colum 
 SYNTAX:-ALTER TABLE table_name DROP COLUMN column_name;
+ex:- ALTER TABLE student DROP COLUMN age;
+
+
 iii)MODIFY:-It is used foe changes datatype & size of cloumn.
 SYNTAX:-ALTER TABLE table_name ALTER COLUMN column_name TYPE(SIZE);
+EX:-ALTER TABLE student ALTER COLUMN name VARCHAR(25);
+
+
+
 iv):-RENAME:- IT IS used for change column name.
-SYNTAX:-RENAME TABLE old_colum_namr TO new_column_name;
+SYNTAX:-RENAME TABLE old_column_name TO new_column_name;
+EX:-RENAME TABLE student TO college;
 
 
 
@@ -34,6 +50,7 @@ SYNTAX:-RENAME TABLE old_colum_namr TO new_column_name;
 
 DROP:- It can delete total table and data permantly with table .
 SYNTAX:-DROP TABLE table_name;
+DROP TABLE college;
 
 
 
