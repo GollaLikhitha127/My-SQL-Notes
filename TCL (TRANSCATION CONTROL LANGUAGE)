@@ -1,1 +1,16 @@
+Transaction Control Language (TCL):-
+It is a set of SQL commands used to control and manage transactions in the database.
 
+COMMANDS :- 1. COMMIT ,  2. ROLLBACK  ,  3. SAVEPOINT
+
+1. COMMIT:-
+It is used to save the changes permanently in the database.
+SYNTAX:-COMMIT;
+
+2. ROLLBACK:-
+It is used to undo the changes that are not saved permanently.
+SYNTAX:-ROLLBACK;
+
+3. SAVEPOINT:-
+It is used to create a temporary point inside a transaction.
+SYNTAX:-SAVEPOINT savepoint_name;
